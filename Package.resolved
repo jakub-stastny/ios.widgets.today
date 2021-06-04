@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftOrg",
+        "repositoryURL": "git@github.com:madyankin/swift-org.git",
+        "state": {
+          "branch": "master",
+          "revision": "d0b927f1bfab4e5df4f3655756026ae3a717bd1f",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
