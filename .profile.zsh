@@ -1,6 +1,7 @@
 load ~/.zsh/environments/helpers.zsh && save-function-list
-load ~/.zsh/environments/emacs.zsh
 load ~/.zsh/environments/basic.zsh
+load ~/.zsh/environments/emacs.zsh
+load ~/.zsh/environments/swift.zsh
 
 start-emacs-session
 rename-first-tab
