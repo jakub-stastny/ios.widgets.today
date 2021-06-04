@@ -1,0 +1,26 @@
+* About
+
+Today widget app.
+
+* Inputs
+
+- Calendars: main calendar, birthdays.
+- Org mode: scheduled/time frames.
+- On tap: write today note (current-month.org).
+
+* Pending
+** TODO Learn Swift
+- Continue with the [[https://swift.org/about/#swiftorg-and-open-source][Swift docs]].
+- Check out the [[https://developer.apple.com/swift/][Apple Swift page]].
+- Check out [[https://www.youtube.com/watch?v=gvhvX3LrBKA][this YouTube talk]].
+- Read [[https://en.wikipedia.org/wiki/Swift_(programming_language)][Wikipedia article]].
+- News and interesting things in Swift, [[https://atp.fm/433][ATP #433]] section =WWDC 2021 Predictions=.
+
+** TODO Make SwiftOrg compile
+
+- SwiftOrg was written for Swift 3.
+- Is it possible to mix various versions of Swift source? Is it what =// swift-tools-version:5.3= declaration is for? In that case I only need to change it to =3=. See [[https://medium.com/swiftify/swift-5-1-module-format-stability-best-time-migrate-objective-c-frameworks-a0434f5352a3]].
+- Is it possible to mix various versions of Swift bytecode? Compile it with Swift 3 and include as a package? No idea whether this is a thing in Swift.
+- If not, I should ask the [[https://github.com/madyankin][guy of the fork]] whether he managed to fix the code for Swift 5, as he's clearly using it.
+- I should also ask the original author whether they plan to upgrade it. (Wait until here to have my research done.)
+- If everything fails, I'm left with two options: either downgrade my Swift to the highest version it works well on OR fix it for Swift 5 myself.
